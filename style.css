@@ -1,0 +1,84 @@
+section{
+   
+    border: 1px solid teal;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 50px;
+    background: radial-gradient(#ffb5ae,#B1F5DF);
+    
+    height: 350px;
+}
+i{
+    font-size: 30px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border: 2px outset tan;
+    padding: 20px 20px 20px 20px;
+    margin-left: 200px;
+}
+p{
+    font-size: 30px;
+}
+
+#btns{
+   margin-left: -100px;
+   margin-left: -74px;
+    display: flex;
+    justify-content: stretch;
+    
+}
+
+#like-delt{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    
+    color:wheat;
+    text-decoration: underline;
+}
+#prixobjet{
+    align-self: start;
+}
+
+#pos{
+    text-underline-position: below;
+}
+body{
+    
+    background-color: #007650;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "img img like delete" "img img quant prix" ". . . .";
+  }
+  
+  .img { grid-area: img; }
+  
+  .like { grid-area: like; }
+  
+  .delete { grid-area: delete; }
+  
+  .quant { grid-area: quant; 
+    margin-top: -100px;
+}
+  
+  .prix { grid-area: prix; 
+    margin-top: -100px;
+}
+
+  #title{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  #basket{
+      margin-top: 20px;
+      color: wheat;
+  }
